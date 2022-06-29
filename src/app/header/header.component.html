@@ -1,0 +1,16 @@
+<header class="header">
+  <nav>
+    <ul class="header__list">
+      <li class="header__item">
+        <p *ngIf="dollarExchangeRate" class="header__text">
+          USD: {{ dollarExchangeRate }}
+        </p>
+      </li>
+      <li class="header__item">
+        <p *ngIf="euroExchangeRate" class="header__text">
+          EUR: {{ euroExchangeRate }}
+        </p>
+      </li>
+    </ul>
+  </nav>
+</header>
